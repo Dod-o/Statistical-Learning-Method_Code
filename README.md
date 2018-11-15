@@ -10,5 +10,5 @@
 按书中章节顺序，目前已实现的章节有：
 
 ### 第二章 感知机：
-https://github.com/Dod-o/Statistical-Learning-Method_Code/blob/master/perceptron/perceptron_dichotomy.py
+[Statistical-Learning-Method_Code/perceptron/perceptron_dichotomy.py](https://github.com/Dod-o/Statistical-Learning-Method_Code/blob/master/perceptron/perceptron_dichotomy.py)
       
