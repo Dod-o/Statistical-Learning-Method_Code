@@ -8,6 +8,6 @@
 
 按书中章节顺序，目前已实现的章节有：
 
-# 第二章 感知机：
+## 第二章 感知机：
 Statistical-Learning-Method_Code/perceptron/perceptron_dichotomy.py
       
