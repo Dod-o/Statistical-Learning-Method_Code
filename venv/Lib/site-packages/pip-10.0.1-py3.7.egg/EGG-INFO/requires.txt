@@ -1,8 +1,0 @@
-
-[testing]
-pytest
-mock
-pretend
-scripttest>=1.3
-virtualenv>=1.10
-freezegun
