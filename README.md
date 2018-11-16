@@ -12,3 +12,8 @@
 ### 第二章 感知机：
 [Statistical-Learning-Method_Code/perceptron/perceptron_dichotomy.py](https://github.com/Dod-o/Statistical-Learning-Method_Code/blob/master/perceptron/perceptron_dichotomy.py)
       
+### 第三章 K邻近：
+[Statistical-Learning-Method_Code/KNN/KNN.py]（https://github.com/Dod-o/Statistical-Learning-Method_Code/blob/master/KNN/KNN.py）
+
+        
+      
