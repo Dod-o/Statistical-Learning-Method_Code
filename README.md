@@ -1,7 +1,7 @@
 《统计学习方法》算法实现
 ====
 
-力求每行代码都有注释，重要部分注明公式来源。让以后学习的人能走得更快。具体可能会追求下方这样的代码，学习的时候可以照着书本公式看程序，让代码有据可查。如果觉得可以的话，欢迎打个星，我将很受鼓舞。    
+力求每行代码都有注释，重要部分注明公式来源。具体会追求下方这样的代码，学习者可以照着公式看程序，让代码有据可查。
 
 ![image](https://github.com/Dod-o/Statistical-Learning-Method_Code/blob/master/CodePic.png)
 
@@ -15,8 +15,9 @@
 ### 第二章 感知机：
 [Statistical-Learning-Method_Code/perceptron/perceptron_dichotomy.py](https://github.com/Dod-o/Statistical-Learning-Method_Code/blob/master/perceptron/perceptron_dichotomy.py)
       
-### 第三章 K邻近：
+### 第三章 K近邻：
 [Statistical-Learning-Method_Code/KNN/KNN.py](https://github.com/Dod-o/Statistical-Learning-Method_Code/blob/master/KNN/KNN.py)
-
-        
       
+### 第四章 朴素贝叶斯：
+[Statistical-Learning-Method_Code/NaiveBayes/NaiveBayes.py](https://github.com/Dod-o/Statistical-Learning-Method_Code/blob/master/NaiveBayes/NaiveBayes.py)    
+
