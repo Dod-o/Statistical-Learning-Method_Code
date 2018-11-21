@@ -25,4 +25,6 @@
       
 ### 第四章 朴素贝叶斯：
 [Statistical-Learning-Method_Code/NaiveBayes/NaiveBayes.py](https://github.com/Dod-o/Statistical-Learning-Method_Code/blob/master/NaiveBayes/NaiveBayes.py)    
-
+      
+### 第五章 决策树：
+[Statistical-Learning-Method_Code/DecisionTree/DecisionTree.py](https://github.com/Dod-o/Statistical-Learning-Method_Code/blob/master/DecisionTree/DecisionTree.py)    
