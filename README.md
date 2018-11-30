@@ -28,6 +28,7 @@
 实现：[NaiveBayes/NaiveBayes.py](https://github.com/Dod-o/Statistical-Learning-Method_Code/blob/master/NaiveBayes/NaiveBayes.py)    
       
 ### 第五章 决策树：
+博客：[统计学习方法|决策树原理剖析及实现](http://www.pkudodo.com/2018/11/30/1-5/)      
 实现：[DecisionTree/DecisionTree.py](https://github.com/Dod-o/Statistical-Learning-Method_Code/blob/master/DecisionTree/DecisionTree.py)    
       
 ### 第六章 逻辑斯蒂回归与最大熵模型：
