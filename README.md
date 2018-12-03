@@ -32,6 +32,8 @@
 实现：[DecisionTree/DecisionTree.py](https://github.com/Dod-o/Statistical-Learning-Method_Code/blob/master/DecisionTree/DecisionTree.py)    
       
 ### 第六章 逻辑斯蒂回归与最大熵模型：       
+博客：逻辑斯蒂回归：[统计学习方法|逻辑斯蒂原理剖析及实现](http://www.pkudodo.com/2018/12/03/1-6/)        
+         
 实现：逻辑斯蒂回归：[Logistic_and_maximum_entropy_models/logisticRegression.py](https://github.com/Dod-o/Statistical-Learning-Method_Code/blob/master/Logistic_and_maximum_entropy_models/logisticRegression.py)    
 实现：最大熵：[Logistic_and_maximum_entropy_models/maxEntropy.py](https://github.com/Dod-o/Statistical-Learning-Method_Code/blob/master/Logistic_and_maximum_entropy_models/maxEntropy.py)       
       
