@@ -39,5 +39,7 @@
       
 ### 第七章 支持向量机：
 实现：[SVM/SVM.py](https://github.com/Dod-o/Statistical-Learning-Method_Code/blob/master/SVM/SVM.py)    
-    
+      
+### 第八章 提升方法：
+实现：[AdaBoost/AdaBoost.py](https://github.com/Dod-o/Statistical-Learning-Method_Code/blob/master/AdaBoost/AdaBoost.py)    
     
