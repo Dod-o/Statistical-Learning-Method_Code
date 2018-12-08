@@ -43,4 +43,6 @@
       
 ### 第八章 提升方法：
 实现：[AdaBoost/AdaBoost.py](https://github.com/Dod-o/Statistical-Learning-Method_Code/blob/master/AdaBoost/AdaBoost.py)    
-    
+      
+### 第九章 EM算法及其推广：
+实现：[EM/EM.py](https://github.com/Dod-o/Statistical-Learning-Method_Code/blob/master/EM/EM.py)    
