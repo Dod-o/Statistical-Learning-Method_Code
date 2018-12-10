@@ -46,3 +46,6 @@
       
 ### 第九章 EM算法及其推广：
 实现：[EM/EM.py](https://github.com/Dod-o/Statistical-Learning-Method_Code/blob/master/EM/EM.py)    
+      
+### 第十章 隐马尔可夫模型：
+实现：[HMM/HMM.py](https://github.com/Dod-o/Statistical-Learning-Method_Code/blob/master/HMM/HMM.py)    
