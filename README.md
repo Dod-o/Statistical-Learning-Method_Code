@@ -38,7 +38,8 @@
 实现：逻辑斯蒂回归：[Logistic_and_maximum_entropy_models/logisticRegression.py](https://github.com/Dod-o/Statistical-Learning-Method_Code/blob/master/Logistic_and_maximum_entropy_models/logisticRegression.py)    
 实现：最大熵：[Logistic_and_maximum_entropy_models/maxEntropy.py](https://github.com/Dod-o/Statistical-Learning-Method_Code/blob/master/Logistic_and_maximum_entropy_models/maxEntropy.py)       
       
-### 第七章 支持向量机：
+### 第七章 支持向量机：    
+博客：[统计学习方法|支持向量机(SVM)原理剖析及实现](http://www.pkudodo.com/2018/12/16/1-8/)      
 实现：[SVM/SVM.py](https://github.com/Dod-o/Statistical-Learning-Method_Code/blob/master/SVM/SVM.py)    
       
 ### 第八章 提升方法：
