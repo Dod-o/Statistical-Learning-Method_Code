@@ -36,7 +36,7 @@ def loadData(fileName):
     for line in fr.readlines():
         # 对每一行数据按切割福','进行切割，返回字段列表
         curLine = line.strip().split(',')
-        #十分类，list中放置标签
+        #二分类，list中放置标签
         if int(curLine[0]) == 0:
             labelList.append(1)
         else:
