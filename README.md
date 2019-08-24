@@ -56,7 +56,7 @@
 联系
 ======
 项目未来短期内不再更新，如有疑问欢迎使用issue，也可添加微信或邮件联系。      
-此外如果有需要MSRA实习内推的同学，欢迎骚扰。             
+此外如果有需要**MSRA**实习内推的同学，欢迎骚扰。             
 **Wechat:** lvtengchao（备注“blog-学校/单位-姓名”）      
 **Email:** lvtengchao@pku.edu.cn      
       
