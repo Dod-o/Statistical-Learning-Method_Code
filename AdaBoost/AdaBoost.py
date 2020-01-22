@@ -213,7 +213,7 @@ def predict(x, div, rule, feature):
     if x[feature] < div: return L
     else:   return H
 
-def test(testDataList, testLabelList, tree):
+def model_test(testDataList, testLabelList, tree):
     '''
     测试
     :param testDataList:测试数据集
@@ -261,7 +261,7 @@ if __name__ == '__main__':
 
     #测试
     print('start to test')
-    accuracy = test(testDataList[:1000], testLabelList[:1000], tree)
+    accuracy = model_test(testDataList[:1000], testLabelList[:1000], tree)
     print('the accuracy is:%d' % (accuracy * 100), '%')
 
     #结束时间
