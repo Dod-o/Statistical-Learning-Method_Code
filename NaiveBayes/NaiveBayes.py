@@ -73,7 +73,7 @@ def NaiveBayes(Py, Px_y, x):
     return P.index(max(P))
 
 
-def test(Py, Px_y, testDataArr, testLabelArr):
+def model_test(Py, Px_y, testDataArr, testLabelArr):
     '''
     对测试集进行测试
     :param Py: 先验概率分布
@@ -188,7 +188,7 @@ if __name__ == "__main__":
 
     #使用习得的先验概率分布和条件概率分布对测试集进行测试
     print('start to test')
-    accuracy = test(Py, Px_y, testDataArr, testLabelArr)
+    accuracy = model_test(Py, Px_y, testDataArr, testLabelArr)
 
     #打印准确率
     print('the accuracy is:', accuracy)
