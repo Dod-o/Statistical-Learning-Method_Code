@@ -279,7 +279,7 @@ def predict(testDataList, tree):
             #如果当前value不是字典，那就返回分类值
             return value
 
-def test(testDataList, testLabelList, tree):
+def model_test(testDataList, testLabelList, tree):
     '''
     测试准确率
     :param testDataList:待测试数据集
@@ -313,7 +313,7 @@ if __name__ == '__main__':
 
     #测试准确率
     print('start test')
-    accur = test(testDataList, testLabelList, tree)
+    accur = model_test(testDataList, testLabelList, tree)
     print('the accur is:', accur)
 
     #结束时间
