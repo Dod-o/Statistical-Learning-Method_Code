@@ -99,7 +99,7 @@ def perceptron(dataArr, labelArr, iter=50):
     return w, b
 
 
-def test(dataArr, labelArr, w, b):
+def model_test(dataArr, labelArr, w, b):
     '''
     测试准确率
     :param dataArr:测试集
@@ -147,7 +147,7 @@ if __name__ == '__main__':
     #训练获得权重
     w, b = perceptron(trainData, trainLabel, iter = 30)
     #进行测试，获得正确率
-    accruRate = test(testData, testLabel, w, b)
+    accruRate = model_test(testData, testLabel, w, b)
 
     #获取当前时间，作为结束时间
     end = time.time()
