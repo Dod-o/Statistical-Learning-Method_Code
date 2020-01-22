@@ -114,7 +114,7 @@ def logisticRegression(trainDataList, trainLabelList, iter = 200):
     #返回学到的w
     return w
 
-def test(testDataList, testLabelList, w):
+def model_test(testDataList, testLabelList, w):
     '''
     验证
     :param testDataList:测试集
@@ -156,7 +156,7 @@ if __name__ == '__main__':
 
     #验证正确率
     print('start to test')
-    accuracy = test(testData, testLabel, w)
+    accuracy = model_test(testData, testLabel, w)
 
     # 打印准确率
     print('the accuracy is:', accuracy)
