@@ -171,7 +171,7 @@ if __name__ == '__main__':
     print('---------------------------')
     print('the Parameters set is:')
     print('alpha0:%.1f, mu0:%.1f, sigmod0:%.1f, alpha1:%.1f, mu1:%.1f, sigmod1:%.1f'%(
-        alpha0, alpha1, mu0, mu1, sigmod0, sigmod1
+        alpha0, mu0, sigmod0, alpha1, mu1, sigmod1
     ))
 
     #开始EM算法，进行参数估计
