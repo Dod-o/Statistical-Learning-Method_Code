@@ -73,7 +73,7 @@ def calcGauss(dataSetArr, mu, sigmod):
     :return: 整个可观测数据集的高斯分布密度（向量形式）
     '''
     #计算过程就是依据式9.25写的，没有别的花样
-    result = (1 / (math.sqrt(2 * math.pi) * sigmod**2)) * \
+    result = (1 / (math.sqrt(2 * math.pi) * sigmod)) * \
              np.exp(-1 * (dataSetArr - mu) * (dataSetArr - mu) / (2 * sigmod**2))
     #返回结果
     return result
