@@ -142,12 +142,12 @@ def calcBestFeature(trainDataList, trainLabelList):
     maxG_D_A = -1
     #初始化最大信息增益的特征
     maxFeature = -1
+    
+    #“5.2.2 信息增益”中“算法5.1（信息增益的算法）”第一步：
     #1.计算数据集D的经验熵H(D)
     H_D = calc_H_D(trainLabelArr)
     #对每一个特征进行遍历计算
     for feature in range(featureNum):
-        #“5.2.2 信息增益”中“算法5.1（信息增益的算法）”第一步：
-
         #2.计算条件经验熵H(D|A)
         #由于条件经验熵的计算过程中只涉及到标签以及当前特征，为了提高运算速度（全部样本
         #做成的矩阵运算速度太慢，需要剔除不需要的部分），将数据集矩阵进行切割
