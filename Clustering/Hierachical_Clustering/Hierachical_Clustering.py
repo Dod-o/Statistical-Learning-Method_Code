@@ -185,8 +185,8 @@ def Adjusted_Rand_Index(group_dict, Ylist, k):
                 if n in group_dict[list(group_dict.keys())[i]] and n in y_dict[list(y_dict.keys())[j]]:
                     group_array[i][j] += 1  #如果数据n同时在group_dict的类别i和y_dict的类别j中，group_array[i][j]的数值加一
     RI = 0  #定义兰德系数(RI)
-    sum_i = np.zeros(3)  #定义一个数组，用于保存聚类结果group_dict中每一类的个数
-    sum_j = np.zeros(3)  #定义一个数组，用于保存外部标签y_dict中每一类的个数
+    sum_i = np.zeros(k)  #定义一个数组，用于保存聚类结果group_dict中每一类的个数
+    sum_j = np.zeros(k)  #定义一个数组，用于保存外部标签y_dict中每一类的个数
     for i in range(k):
         for j in range(k):
             sum_i[i] += group_array[i][j]
