@@ -39,8 +39,7 @@ def load_data(path):
             else:
                 label.append(1)
     assert len(data) == len(label)
-    # print('从{}导入样本数目:{}'.format(path, len(data)))
-    print('load {} samples from {}'.format(len(data), path))
+    print('从{}导入样本数目:{}'.format(path, len(data)))
     return data, label
 
 class Perceptron():
@@ -50,8 +49,6 @@ class Perceptron():
             train_label,
             test_data,
             test_label,
-            h=0.0001,
-            epoch=30,
     ):
         # 将数据转换成矩阵形式（在机器学习中因为通常都是向量的运算，转换称矩阵形式方便运算）
         # 转换后的数据尺寸为1000x784
@@ -68,18 +65,18 @@ class Perceptron():
         self.w = np.zeros((1, self.train_data.shape[1]))
         # 初始化偏置b为0
         self.b = 0
-        # 初始化梯度下降过程中的步长，控制梯度下降速率
-        self.h = h
-        # 训练的轮数，一轮表示训练集中所有数据参与一次训练
-        self.epoch = epoch
+        # # 初始化梯度下降过程中的步长，控制梯度下降速率
+        # self.h = h
+        # # 训练的轮数，一轮表示训练集中所有数据参与一次训练
+        # self.epoch = epoch
 
-    def train(self):
-        print('start training...')
+    def train(self, epoch, h):
+        print('开始训练...')
         m, n = self.train_data.shape
 
-        for epoch in range(self.epoch):
+        for cur_epoch in range(epoch):
             # 打印训练进度
-            print('training: epoch-{}'.format(epoch))
+            print('训练: 轮数-{}'.format(cur_epoch))
 
             for i in range(m):
                 # 获取当前样本的向量
@@ -91,8 +88,8 @@ class Perceptron():
                 # 在书的公式中写的是>0，实际上如果=0，说明该点在超平面上，也是不正确的
                 if -1 * yi * (self.w * xi.T + self.b) >= 0:
                     # 对于误分类样本，进行梯度下降，更新w和b
-                    self.w = self.w + self.h * yi * xi
-                    self.b = self.b + self.h * yi
+                    self.w = self.w + h * yi * xi
+                    self.b = self.b + h * yi
 
     def eval(self):
         # 错误样本数计数
@@ -126,12 +123,12 @@ if __name__ == '__main__':
         test_label=test_label,
     )
     # 训练
-    perceptron.train()
+    perceptron.train(epoch=100, h=0.001)
     # 评估，计算准确率
     accuracy = perceptron.eval()
     # 获取结束时间
     end = time.time()
     # 显示用时时长
-    print('time span: {} s'.format(end - start))
+    print('训练时长: {} s'.format(end - start))
     # 显示准确率
-    print('accuracy is: {}%'.format(accuracy * 100))
+    print('准确率: {}%'.format(accuracy * 100))
