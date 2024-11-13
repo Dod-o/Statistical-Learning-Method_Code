@@ -89,13 +89,10 @@
 实现：[Page_Rank.py](https://github.com/Dod-o/Statistical-Learning-Method_Code/blob/master/Page_Rank/Page_Rank.py)
 
 
-
-
 ## 许可 / License
 本项目内容许可遵循[Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/)。
 
 The content of this project itself is licensed under the [Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
-
 
 联系
 ======
@@ -103,4 +100,16 @@ The content of this project itself is licensed under the [Attribution-NonCommerc
 此外如果有需要**MSRA**实习内推的同学，欢迎骚扰。             
 **Wechat:** lvtengchao（备注“blog-学校/单位-姓名”）      
 **Email:** lvtengchao@pku.edu.cn      
-      
+
+
+项目历史
+======
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=Dod-o/Statistical-Learning-Method_Code&type=Date&theme=dark" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=Dod-o/Statistical-Learning-Method_Code&type=Date" />
+  <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=Dod-o/Statistical-Learning-Method_Code&type=Date" />
+</picture>
+
+
+
+
