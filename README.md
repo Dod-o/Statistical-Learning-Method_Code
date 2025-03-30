@@ -31,30 +31,30 @@
 ## 监督部分
 
 ### 第二章 感知机：
-博客：[统计学习方法|感知机原理剖析及实现](http://www.pkudodo.com/2018/11/18/1-4/)      
+博客：[统计学习方法|感知机原理剖析及实现](https://github.com/Dod-o/Statistical-Learning-Method_Code/blob/master/blogs/%E6%84%9F%E7%9F%A5%E6%9C%BA%E5%8E%9F%E7%90%86%E5%89%96%E6%9E%90%E5%8F%8A%E5%AE%9E%E7%8E%B0.pdf)      
 实现：[perceptron/perceptron_dichotomy.py](https://github.com/Dod-o/Statistical-Learning-Method_Code/blob/master/perceptron/perceptron_dichotomy.py)
       
 ### 第三章 K近邻：
-博客：[统计学习方法|K近邻原理剖析及实现](http://www.pkudodo.com/2018/11/19/1-2/)      
+博客：[统计学习方法|K近邻原理剖析及实现](https://github.com/Dod-o/Statistical-Learning-Method_Code/blob/master/blogs/K%E8%BF%91%E9%82%BB%E5%8E%9F%E7%90%86%E5%89%96%E6%9E%90%E5%8F%8A%E5%AE%9E%E7%8E%B0.pdf)      
 实现：[KNN/KNN.py](https://github.com/Dod-o/Statistical-Learning-Method_Code/blob/master/KNN/KNN.py)
       
 ### 第四章 朴素贝叶斯：
-博客：[统计学习方法|朴素贝叶斯原理剖析及实现](http://www.pkudodo.com/2018/11/21/1-3/)      
+博客：[统计学习方法|朴素贝叶斯原理剖析及实现](https://github.com/Dod-o/Statistical-Learning-Method_Code/blob/master/blogs/%E6%9C%B4%E7%B4%A0%E8%B4%9D%E5%8F%B6%E6%96%AF%E5%8E%9F%E7%90%86%E5%89%96%E6%9E%90%E5%8F%8A%E5%AE%9E%E7%8E%B0.pdf)      
 实现：[NaiveBayes/NaiveBayes.py](https://github.com/Dod-o/Statistical-Learning-Method_Code/blob/master/NaiveBayes/NaiveBayes.py)    
       
 ### 第五章 决策树：
-博客：[统计学习方法|决策树原理剖析及实现](http://www.pkudodo.com/2018/11/30/1-5/)      
+博客：[统计学习方法|决策树原理剖析及实现](https://github.com/Dod-o/Statistical-Learning-Method_Code/blob/master/blogs/%E5%86%B3%E7%AD%96%E6%A0%91%E5%8E%9F%E7%90%86%E5%89%96%E6%9E%90%E5%8F%8A%E5%AE%9E%E7%8E%B0.pdf)      
 实现：[DecisionTree/DecisionTree.py](https://github.com/Dod-o/Statistical-Learning-Method_Code/blob/master/DecisionTree/DecisionTree.py)    
       
 ### 第六章 逻辑斯蒂回归与最大熵模型：       
-博客：逻辑斯蒂回归：[统计学习方法|逻辑斯蒂原理剖析及实现](http://www.pkudodo.com/2018/12/03/1-6/)        
-博客：最大熵：[统计学习方法|最大熵原理剖析及实现](http://www.pkudodo.com/2018/12/05/1-7/)        
+博客：逻辑斯蒂回归：[统计学习方法|逻辑斯蒂原理剖析及实现](https://github.com/Dod-o/Statistical-Learning-Method_Code/blob/master/blogs/%E9%80%BB%E8%BE%91%E6%96%AF%E8%92%82%E5%8E%9F%E7%90%86%E5%89%96%E6%9E%90%E5%8F%8A%E5%AE%9E%E7%8E%B0.pdf)        
+博客：最大熵：[统计学习方法|最大熵原理剖析及实现](https://github.com/Dod-o/Statistical-Learning-Method_Code/blob/master/blogs/%E6%9C%80%E5%A4%A7%E7%86%B5%E5%8E%9F%E7%90%86%E5%89%96%E6%9E%90%E5%8F%8A%E5%AE%9E%E7%8E%B0.pdf)        
 
 实现：逻辑斯蒂回归：[Logistic_and_maximum_entropy_models/logisticRegression.py](https://github.com/Dod-o/Statistical-Learning-Method_Code/blob/master/Logistic_and_maximum_entropy_models/logisticRegression.py)    
 实现：最大熵：[Logistic_and_maximum_entropy_models/maxEntropy.py](https://github.com/Dod-o/Statistical-Learning-Method_Code/blob/master/Logistic_and_maximum_entropy_models/maxEntropy.py)       
       
 ### 第七章 支持向量机：    
-博客：[统计学习方法|支持向量机(SVM)原理剖析及实现](http://www.pkudodo.com/2018/12/16/1-8/)      
+博客：[统计学习方法|支持向量机(SVM)原理剖析及实现](https://github.com/Dod-o/Statistical-Learning-Method_Code/blob/master/blogs/%E6%94%AF%E6%8C%81%E5%90%91%E9%87%8F%E6%9C%BA(SVM)%E5%8E%9F%E7%90%86%E5%89%96%E6%9E%90%E5%8F%8A%E5%AE%9E%E7%8E%B0.pdf)      
 实现：[SVM/SVM.py](https://github.com/Dod-o/Statistical-Learning-Method_Code/blob/master/SVM/SVM.py)    
       
 ### 第八章 提升方法：
