@@ -29,16 +29,16 @@ def loadData(fileName):
     fr = open(fileName, 'r')
     # 将文件按行读取
     for line in fr.readlines():
-        # 对每一行数据按切割福','进行切割，返回字段列表
+        # 对每一行数据按切割符','进行切割，返回字段列表
         curLine = line.strip().split(',')
 
-        # Mnsit有0-9是个标记，由于是二分类任务，所以将>=5的作为1，<5为-1
+        # Mnist有0-9是个标记，由于是二分类任务，所以将>=5的作为1，<5为-1
         if int(curLine[0]) >= 5:
             labelArr.append(1)
         else:
             labelArr.append(-1)
         #存放标记
-        #[int(num) for num in curLine[1:]] -> 遍历每一行中除了以第一哥元素（标记）外将所有元素转换成int类型
+        #[int(num) for num in curLine[1:]] -> 遍历每一行中除了以第一个元素（标记）外将所有元素转换成int类型
         #[int(num)/255 for num in curLine[1:]] -> 将所有数据除255归一化(非必须步骤，可以不归一化)
         dataArr.append([int(num)/255 for num in curLine[1:]])
 
@@ -58,7 +58,7 @@ def perceptron(dataArr, labelArr, iter=50):
     #转换后的数据中每一个样本的向量都是横向的
     dataMat = np.mat(dataArr)
     #将标签转换成矩阵，之后转置(.T为转置)。
-    #转置是因为在运算中需要单独取label中的某一个元素，如果是1xN的矩阵的话，无法用label[i]的方式读取
+    #转置是因为在运算中需要单独取label中的某一个元素，如果不是1xN的矩阵的话，无法用label[i]的方式读取
     #对于只有1xN的label可以不转换成矩阵，直接label[i]即可，这里转换是为了格式上的统一
     labelMat = np.mat(labelArr).T
     #获取数据矩阵的大小，为m*n
